@@ -26,18 +26,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+        <li><%= link_to 'About', about_path %></li>
+        <li><%= link_to 'Projects', projects_path %></li>
+        <li><%= link_to 'Contact', contact_path %></li>
+       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -50,7 +42,7 @@
 <div class="footer">
    <div class="container">
      <div class="col-xs-6">
-        This isn't enough, I need more
+        &copy; 2015 MCHLWRRN.com
       </div>
       <div class="col-xs-6 footer-blurb">
         Find me on <a href="https://github.com/MCHLWRRN">GitHub</a> or <a href="https://www.linkedin.com/in/mdwarren">LinkedIn.</a>

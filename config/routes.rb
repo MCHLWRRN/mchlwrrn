@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
   root 'words#index'
+  get 'about', :to => 'words#about'
+  get 'projects', :to => 'words#projects'
+  get 'contact', :to => 'words#contact'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
