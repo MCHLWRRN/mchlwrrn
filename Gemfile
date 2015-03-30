@@ -34,6 +34,7 @@ gem 'simple_form'
 
 gem 'mail_form'
 
+gem 'newrelic_rpm'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
